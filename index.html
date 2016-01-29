@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="css/weather-icons.css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<meta name="google" value="notranslate" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+	<ul class="cb-slideshow">
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+    </ul>
+
+	<div class="top left" style="left: 50px; top: 50px"><div class="date small dimmed"></div><div class="time"></div><div class="calendar xxsmall"></div></div>
+	<div class="top right"><div class="windsun small dimmed"></div><div class="temp"></div><div class="forecast small dimmed"></div></div>
+	<div class="center-ver center-hor"><!-- <div class="dishwasher light">Vaatwasser is klaar!</div> --></div>
+	<div class="lower-third center-hor"><div class="compliment light"></div></div>
+	<div class="bottom center-hor"><div class="news  medium"></div></div>
+	<div class="bottom2 center-hor">
+		<section class="searchContainer">
+    	            <form class="searchForm" method="get" action="https://google.com/search">
+    	                <input class="searchBar search_google" type="text" name="q" placeholder="Google" autofocus="autofocus" search_/>
+    	            </form>
+    	            <form class="searchForm" method="get" action="https://youtube.com/results">
+    	                <input class="searchBar search_youtube" type="text" name="search_query" placeholder="Youtube" search_/>
+    	            </form>
+    	            <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php">
+    	                <input class="searchBar search_wikipedia" type="text" name="search" placeholder="Wikipedia (en)" search_/>
+    	            </form>
+    	</section>
+    </div>
+	
+
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.feedToJSON.js"></script>
+<script src="js/ical_parser.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/rrule.js"></script>
+<script src="js/version/version.js" type="text/javascript"></script>
+<script src="js/calendar/calendar.js" type="text/javascript"></script>
+<script src="js/compliments/compliments.js" type="text/javascript"></script>
+<script src="js/weather/weather.js" type="text/javascript"></script>
+<script src="js/time/time.js" type="text/javascript"></script>
+<script src="js/news/news.js" type="text/javascript"></script>
+<script src="js/main.js?nocache=<?php echo md5(microtime()) ?>"></script>
+<!-- <script src="js/socket.io.min.js"></script> -->
+
+</body>
+</html>
